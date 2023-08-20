@@ -2,16 +2,34 @@
 font-family: 'Coiny', cursive;
 font-family: 'Sono', sans-serif;
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Sono", sans-serif;
+  background-color: #292524;
+  color: #fafaf9;
+  padding: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
 }
 
 .page-header {
   font-size: 42px;
   font-family: "Coiny", sans-serif;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.facts-form {
+  background-color: #57534e;
+  margin-bottom: 40px;
+  padding: 16px 40px;
 }
 
 ul {
@@ -21,6 +39,9 @@ ul {
 .facts {
   font-size: 20px;
   line-height: 1.4;
+  background-color: #57534e;
+  margin-bottom: 16px;
+  padding: 16px 30px;
 }
 
 .fact-categories {
