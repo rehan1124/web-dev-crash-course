@@ -17,13 +17,21 @@ body {
 
 .header {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .page-header {
   font-size: 42px;
   font-family: "Coiny", sans-serif;
   text-transform: uppercase;
-  /* text-align: center; */
 }
 
 .facts-form {
@@ -43,6 +51,10 @@ ul {
   background-color: #57534e;
   margin-bottom: 16px;
   padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  letter-spacing: -1px;
 }
 
 .fact-categories {
@@ -51,4 +63,8 @@ ul {
   font-weight: bold;
   padding: 3px 10px;
   border-radius: 10px;
+}
+
+.vote-buttons {
+  margin-left: auto;
 }
